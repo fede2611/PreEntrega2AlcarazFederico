@@ -58,12 +58,11 @@
                     <div class="correo text-danger"></div>
                     
                 </div> 
-                <div class="mb-4">
-                    <label for="sexo"><i class="bi bi-gender-ambiguous"></i> Sexo: </label>
-                    <input type="radio" class="form-check-input"  name="sexo"  value="masculino" > Masculino
-                    <input type="radio" class="form-check-input" name="sexo"  value="femenino" > Femenino
-                    <div class="sexo text-danger"></div>
-                </div>  
+                <div class="form-group">
+                  <label>Sexo</label>
+                  <label class="radio-inline"> <input type="radio" class="pr-3" name="gender">Femenino</label>
+                  <label class="radio-inline"><input type="radio" name="gender">Masculino</label>
+                </div>
                 <div class="mb-4">
                     <label for="mensaje"> <i class="bi bi-chat-right-dots-fill" required></i> Mensaje</label>
                     <textarea name="mensaje" id="mensaje" class="form-control" placeholder="ej: hola"></textarea>
