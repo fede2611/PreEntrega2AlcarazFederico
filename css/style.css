@@ -1,0 +1,92 @@
+h1 {
+  text-align: center;
+  background-color: orange;
+  color: white; }
+
+.color-orange {
+  color: orange; }
+
+.center {
+  text-align: center; }
+
+.color-red {
+  color: red; }
+
+.w-30 {
+  width: 30%; }
+
+ul {
+  overflow: hidden;
+  list-style: none;
+  display: inline-block; }
+
+nav {
+  background-color: green;
+  top: 0;
+  width: 100%;
+  text-align: center; }
+
+ul li {
+  float: left; }
+
+li a {
+  color: white;
+  display: block;
+  padding: 14px 30px;
+  text-decoration: none; }
+
+p {
+  text-align: center;
+  font-family: "Trirong", serif;
+  font-size: 25px;
+  line-height: 50px; }
+
+h2 {
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 25px; }
+
+img {
+  max-width: 200%;
+  max-height: 200%;
+  margin: 0 auto;
+  display: block; }
+
+.cat {
+  height: 50px;
+  width: 100px; }
+
+footer {
+  background-color: blue;
+  text-align: center;
+  color: white; }
+
+p {
+  background-color: blue;
+  text-align: justify;
+  color: white; }
+
+.logo {
+  animation: aumentar 1s ease-in infinite alternate; }
+
+@keyframes aumentar {
+  0% { }
+  100% {
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+    background-color: black;
+    animation-name: creciendo;
+    animation-duration: 200ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; } }
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+  object-fit: cover; }
+
+.card-index {
+  width: 18rem;
+  height: 20rem; }
