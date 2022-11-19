@@ -1,6 +1,11 @@
+footer {
+  background-color: blue;
+  text-align: center;
+  color: white; }
+
 h1 {
   text-align: center;
-  background-color: orange;
+  background-color: blue;
   color: white; }
 
 .color-orange {
@@ -56,11 +61,6 @@ img {
 .cat {
   height: 50px;
   width: 100px; }
-
-footer {
-  background-color: blue;
-  text-align: center;
-  color: white; }
 
 p {
   background-color: blue;
