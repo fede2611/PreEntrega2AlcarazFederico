@@ -1,11 +1,12 @@
-@import "variables";
+@import 'variable';
+@import 'footer';
 h1{
     text-align: center;
-    background-color: blue;
-    color: white;
+    background-color: $color-primario;
+    color: $color-secundario;
 }
 .color-orange {
-    color: orange;
+    color: $color-activo;
 }
 .center {
     text-align: center;
@@ -31,7 +32,7 @@ ul li {
     float:left;
 }
 li a {
-    color: white;
+    color: $color-secundario;
     display: block;
     padding: 14px 30px;
     text-decoration: none;
@@ -44,8 +45,8 @@ p{
 }
 h2{
     text-align:center;
-    background-color: black;
-    color: white;
+    background-color: $color-oscuro;
+    color: $color-secundario;
     font-size: 25px;
 }
 
@@ -59,15 +60,11 @@ img {
     height: 50px;
     width: 100px;
    }
-footer{
-    background-color: blue;
-    text-align: center;
-    color: white;
-   }
+
 p{
-    background-color: blue;
+    background-color: $color-primario;
     text-align: justify;
-    color: white;
+    color: $color-secundario;
   }
  .logo{
    animation: aumentar 1s ease-in infinite alternate;
